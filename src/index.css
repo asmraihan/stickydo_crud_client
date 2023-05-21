@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.btn-primary{
+    @apply  font-medium  transition duration-200  shadow-md  px-4 py-2 md:px-6 md:py-2  text-lg rounded-full border-transparent border-2 text-gray-700 hover:bg-orange-400 bg-orange-200
+  }
+
+  .btn-outlined{
+    @apply  font-medium transition duration-200  shadow-md px-4 py-2 md:px-6 md:py-2 text-lg rounded-full  text-gray-700 hover:bg-orange-400 hover:border-transparent border-2 border-orange-200
+  }
+
+
+
+/* see all button css  */
+/* .svg-wrapper {
+    margin-top: 0;
+    position: relative;
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 3px;
+  } */
+  
+  /* #shape {
+    stroke-width: 6px;
+    fill: transparent;
+    stroke: #009ffd;
+    stroke-dasharray: 85 400;
+    stroke-dashoffset: -220;
+    transition: 1s all ease;
+  } */
+  
+  /* .svg-wrapper:hover #shape {
+    stroke-dasharray: 50 0;
+    stroke-width: 3px;
+    stroke-dashoffset: 0;
+    stroke: #06d6a0;
+  } */
+
+  .text {
+    position: absolute;
+    top: 19%;
+    left: 30%;
+    color: #009ffd;
+    background: transparent;
+  }
+
+  /* #see_all_btn {
+    left: 28%;
+  } */
+  
+
+  .svg-wrapper {
+    margin-top: 0;
+    position: relative;
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  #shape {
+    stroke-width: 6px;
+    fill: transparent;
+    stroke: #009ffd;
+    stroke-dasharray: 85 400;
+    stroke-dashoffset: -220;
+    transition: 1s all ease;
+  }
+  
+  .svg-wrapper:hover #shape {
+    stroke-dasharray: 50 0;
+    stroke-width: 3px;
+    stroke-dashoffset: 0;
+    stroke: #06d6a0;
+  }
